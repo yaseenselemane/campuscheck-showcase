@@ -55,14 +55,51 @@ sequenceDiagram
 | Backend | Supabase: Postgres, Auth, Row Level Security, Edge Functions (Deno), Realtime, pg_cron |
 | Builds | EAS Build → signed Android APK / App Bundle |
 
-## Screenshots
+## Demo
 
-<!-- Add real screenshots to /screenshots and list them here -->
-_Coming soon._
+<p align="center"><img src="media/campuscheck-demo.gif" alt="Lecturer walkthrough: switching modules, sessions, notes, announcements, rooms, and live light/dark theme switch" width="300"></p>
 
-## Demo video
+<p align="center"><a href="media/campuscheck-demo.mp4">▶ Watch the full-quality video (MP4)</a></p>
 
-_Coming soon._
+Recorded on a Samsung Galaxy S21+ running the production build against the live Supabase backend. Student names and numbers are blurred.
+
+### Student app
+
+<p align="center"><img src="media/campuscheck-student-demo.gif" alt="Student walkthrough: check-in, attendance stats, modules, marks, announcements, calendar, rooms, dark mode" width="300"></p>
+
+<p align="center"><a href="media/campuscheck-student-demo.mp4">▶ Watch the student video (MP4)</a></p>
+
+| Home & check-in | Modules | Attendance history | Marks & badges |
+|---|---|---|---|
+| <img src="screenshots/11-student-home.png" width="160" alt="Student home with code entry and attendance percentage"> | <img src="screenshots/12-student-classes.png" width="160" alt="Per-module attendance"> | <img src="screenshots/13-student-attendance.png" width="160" alt="Attendance history with dispute and rating"> | <img src="screenshots/14-student-marks.png" width="160" alt="Badges and marks tracker"> |
+
+| Announcements | Calendar | Dark mode | Settings |
+|---|---|---|---|
+| <img src="screenshots/15-student-announcements.png" width="160" alt="Announcements"> | <img src="screenshots/16-student-calendar.png" width="160" alt="Day calendar"> | <img src="screenshots/17-student-dark-home.png" width="160" alt="Student home in dark mode"> | <img src="screenshots/18-student-settings.png" width="160" alt="Settings"> |
+
+### Admin app
+
+<p align="center"><img src="media/campuscheck-admin-demo.gif" alt="Admin walkthrough: attendance rules, trends, announcements, terms, events, rooms, sessions, curriculum, modules, programmes, dark mode" width="300"></p>
+
+<p align="center"><a href="media/campuscheck-admin-demo.mp4">▶ Watch the admin video (MP4)</a></p>
+
+| Overview | Attendance rules | Trends heatmap | Programme comparison | Announce |
+|---|---|---|---|---|
+| <img src="screenshots/19-admin-overview.png" width="160" alt="Admin control centre"> | <img src="screenshots/20-admin-rules.png" width="160" alt="Beacon and code rules"> | <img src="screenshots/21-admin-trends.png" width="160" alt="Attendance heatmap and 12-week trend"> | <img src="screenshots/22-admin-comparisons.png" width="160" alt="Programme and semester comparison"> | <img src="screenshots/23-admin-announce.png" width="160" alt="Broadcast announcements"> |
+
+| Events | Modules | Programmes | Dark mode |
+|---|---|---|---|
+| <img src="screenshots/24-admin-events.png" width="160" alt="Events management"> | <img src="screenshots/25-admin-modules.png" width="160" alt="Modules management"> | <img src="screenshots/26-admin-programmes.png" width="160" alt="Programmes management"> | <img src="screenshots/27-admin-dark.png" width="160" alt="Admin in dark mode"> |
+
+## Lecturer screenshots
+
+| Lecturer dashboard | Live register | Sessions | Announcements | Rooms |
+|---|---|---|---|---|
+| <img src="screenshots/01-lecturer-dashboard.png" width="160" alt="Lecturer dashboard with attendance code and countdown"> | <img src="screenshots/02-live-register.png" width="160" alt="Live register with Present, Late and Absent filters"> | <img src="screenshots/03-sessions.png" width="160" alt="Scheduled class sessions"> | <img src="screenshots/04-announcements.png" width="160" alt="Module announcements and session rating"> | <img src="screenshots/05-venues.png" width="160" alt="Venues by floor with live availability"> |
+
+| Reports | Settings | Dark: sessions | Dark: rooms | Dark: announcements |
+|---|---|---|---|---|
+| <img src="screenshots/06-reports.png" width="160" alt="Attendance by module chart"> | <img src="screenshots/07-settings.png" width="160" alt="Settings with reminders, dark mode and Bluetooth diagnostics"> | <img src="screenshots/08-dark-sessions.png" width="160" alt="Sessions in dark mode"> | <img src="screenshots/09-dark-venues.png" width="160" alt="Rooms in dark mode"> | <img src="screenshots/10-dark-announcements.png" width="160" alt="Announcements in dark mode"> |
 
 ---
 
